@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Loops</title>
+</head>
+<body>
+    <h2>Program Converter kg to Pounds</h2>
+    <form>
+        <label for="loop">Enter # Kilograms:</label>
+        <input type="text" id="x">
+    </form>
+    <button onclick="calculate_kgpounds()">CALCULATE Kg to Lbs</button>
+    <button onclick="calculate_kggrams()">CALCULATE Kg to Grams</button>
+    <script>
+        function calculate_kgpounds() {
+            let kg = document.getElementById('x').value;
+            paolo = kg * 2.2;
+            alert (kg + " kilogram(s) = " + paolo + "lbs");
+        }
+
+        function calculate_kggrams() {
+            let kg = document.getElementById('x').value;
+            vincent = kg * 1000;
+            alert (kg + " kilogram(s) = " + vincent + "grams");
+        }
+    </script>
+</body>
+</html>

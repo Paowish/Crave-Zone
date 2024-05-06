@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice</title>
+</head>
+<body>
+    <h2>Program Display the Asteries Using Loops</h2>
+
+    <form>
+        <label for="loop">Enter # of Loops: </label>
+        <input type="text" id="x">
+    </form>
+    <button onclick="print_loop()">PRINT</button>
+    <script>
+        function print_loop() {
+            let kg = document.getElementById('x').value;
+            let out = ' ';
+            let a = document.getElementById('x').value;
+            for (c = 1; c <= a; c++)
+            out = out + 'x';
+        alert (out);
+        }
+    </script>
+</body>
+</html>
